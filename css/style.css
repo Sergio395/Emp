@@ -1,0 +1,290 @@
+html { 
+    font-size: 62.5%;
+ 
+}
+   
+body { 
+     font-size: 1rem;
+}
+.Arg{
+  
+  background-color: rgba(255, 255, 255, 0.702); 
+    border-radius: 10px;
+    color: white;
+    text-shadow: blue 2px 1px 2px;
+    padding: 0.5px 0;
+   
+    font-size: 2rem;
+    display: inline;
+    text-align: justify;
+}
+h1 {
+  font-size: 3.8rem;
+  color: rgb(21, 169, 218);
+  text-align: center;
+}     
+
+span {
+  font-size: 5rem;
+
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px,1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+  
+  @media (min-width: 600px) {
+    .wide {
+      grid-column: span 2;
+    }
+  
+    .tall {
+      grid-row: span 2;
+    }
+  }
+  /* Aca inicia la barra de navegacion */
+  
+nav {
+    background-color: black;
+    padding: 5px ;
+    width: 99.49%;
+   
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav {
+    background-color: rgba(64, 207, 255, 0.559); 
+    border-radius: 10px;
+    color: blue;
+    text-shadow: blue 1px 1px 2px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}       
+
+  #nav li {
+    display: inline-block;
+    width: 20%;
+         /* border: solid 1px white;
+        border-radius: 9px;  */
+     padding: 1px;
+        
+      } 
+
+
+@media (max-width: 600px) {
+    #nav li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1rem;
+        width: auto;
+
+        
+    }      
+
+
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+      
+#nav a:hover {
+    background-color: rgb(250, 0, 12);
+}
+  
+#nav a:active {
+    background-color: rgb(202, 52, 99);
+}
+/* Aca termina la barra de navegacion */
+
+h3 {
+    color:blueviolet
+}  
+
+}
+.formulario {
+  background-color: rgb(255, 255, 255);
+  width: min( 35rem,60% );
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+ 
+
+}
+.formulario fieldset {
+  border: none;
+}
+.formulario legend {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+  color:      #03afff;
+  ;
+}
+#enviar{
+  margin-top: 3rem;
+  text-align: right;
+
+}
+
+@media (min-width: 768px) {
+  .contenedor-campos {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto 2rem ;
+      column-gap: 1rem;
+  }
+
+  .campo:nth-child(3),
+  .campo:nth-child(4) {
+      grid-column: 1 / 3;
+  }
+}
+.campo {
+  margin-bottom: 0.1rem;
+}
+.campo label {
+  color:   black;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  display: block;
+}
+.campo textarea {
+  height: 0.3rem;
+}
+
+.input-text {
+  width: 100%;
+  border: none;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+label{
+  display: inline-block;
+  width: auto;
+}
+
+/* Aqui comienza el footer */
+footer {
+
+  /* grid-template-rows: 1000px; */
+  /* grid-auto-rows:  auto; */
+  background-color: #111;
+  margin: 2%;
+  padding: 2%;
+  width: 100vp;
+  text-align: center;
+}
+footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+h5{
+  text-align: center;
+  color: white;
+  font-size: 1em; 
+  margin-left: 1rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+  text-align: center;
+}
+.socials a:hover i {
+  color: aqua;
+}
+hr {
+  width: 90%;
+}
+
+.footer-bottom {
+  background: #000;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #dfe8ec;
+}
+
+
+/* Aqui termina el footer */

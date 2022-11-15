@@ -1,0 +1,32 @@
+ <style>
+        .flexF {
+            display: flex;
+            background-color: blue;
+            flex-direction: row; 
+            
+        }
+        .flexF div {
+            background-color: brown;
+            margin: 5px;
+            color: white;
+           flex-basis: 150px;
+        }
+
+        @media (max-width: 300px) {
+          .flexF {
+           
+            flex-direction: column;
+        }
+        .flexF div {
+           
+            flex-basis: 100%;
+        }
+
+<body>
+    <div class="flexF">
+        
+        <div>Inicio</div>
+        <div>Estreno de Series</div>
+        <div>Noticias</div>
+
+    </div>
