@@ -6,6 +6,10 @@ html {
 body { 
      font-size: 1rem;
 }
+.background{
+  background-size: cover;
+  
+}
 .Arg{
   
   background-color: rgba(255, 255, 255, 0.702); 
@@ -78,6 +82,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
+    font-size: 3rem;
 
 }
 
