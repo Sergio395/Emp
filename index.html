@@ -48,21 +48,24 @@
     <div class="grid-container">
         <div
           class="grid-item tall">
-          <form class="formulario" >
-            <fieldset>
+          <form class="formulario"  action="show_data.html" target="_blank">
+           
               <div class="contenedor-campos">
                 <div class="campo">
                 <legend>SU PEDIDO</legend>
-                <label>Nombre</label>
-                <input type="text" placeholder="Ingrese su nombre">
+                <label for="NombreCompleto">Nombre Completo</label>
+                <input type="text" name="NombreCompleto" placeholder="Ingrese su Nombre Completo">
                 <label>celular</label>
-                <input type="cell"placeholder="tu celular" >
+                <input type="cell" name="Celular" placeholder="tu celular o teléfono">
                 <label>Dirección</label>
-                <input type="address"placeholder="Lo entregamos en" ><br><br>
-                <fieldset>
+                <input type="address" name="Direcc." placeholder="Lo entregamos en" >
+                <label for="email">e-Mail:</label>
+                <input type="email" name="correo" value="@" ><br>
+                <br><br>
+                
                 <legend>¿Qué gustos?</legend><br>
-            
-            <input type="checkbox" id="carne" name="carne" value="carne">
+            <label for="">Precios: Docena $1000.- Unidad $99.-</label>
+            <input type="checkbox" id="carne" >
             <label for="carne">Carne</label>
             <!-- <input type="radio" id="carne" name="carne" value="carne">
             <label for="">Docena</label>
@@ -70,37 +73,37 @@
             <label for="">Media Docena</label>
             <input type="radio" name="carne" id="cmedia"> -->
             <!-- <label for="">Unidades *</label> -->
-            <input type="type" placeholder="Unidades: ¿Cuántas?"><br>
+            <input type="cell" name="Emp.Carne" placeholder="Unidades: ¿Cuántas?"><br>
     
-            <input type="checkbox" id="jq" name="jq" value="jq">
-            <label for="carne">Jamón y Queso</label>
+            <input type="checkbox" id="jq"  >
+            <label for="JyQ">Jamón y Queso</label>
             <!-- <input type="radio" id="carne" name="carne" value="carne">
             <label for="">Docena</label>
             <input type="radio" name="carne" id="cdoce">
             <label for="">Media Docena</label>
             <input type="radio" name="carne" id="cmedia"> -->
             <!-- <label for="">Unidades *</label> -->
-            <input type="type" placeholder="Unidades: ¿Cuántas?"><br>
+            <input type="cell"name='Emp.JyQ'  placeholder="Unidades: ¿Cuántas?"><br>
     
-            <input type="checkbox" id="carne" name="carne" value="carne">
-            <label for="carne">Pollo</label>
+            <input type="checkbox" id="pollo" >
+            <label for="pollo">Pollo</label>
             <!-- <input type="radio" id="carne" name="carne" value="carne">
             <label for="">Docena</label>
             <input type="radio" name="carne" id="cdoce">
             <label for="">Media Docena</label>
             <input type="radio" name="carne" id="cmedia"> -->
             <!-- <label for="">Unidades *</label> -->
-            <input type="type" placeholder="Unidades: ¿Cuántas?"><br>
+            <input type="cell" name="Emp.Pollo" placeholder="Unidades: ¿Cuántas?"><br>
     
-            <input type="checkbox" id="j_q" name="carne" value="carne">
-            <label for="carne">Queso y cebolla</label>
+            <input type="checkbox" id="qyc" >
+            <label for="QyC">Queso y cebolla</label>
             <!-- <input type="radio" id="carne" name="carne" value="carne">
             <label for="">Docena</label>
             <input type="radio" name="carne" id="cdoce">
             <label for="">Media Docena</label>
             <input type="radio" name="carne" id="cmedia"> -->
             <!-- <label for="">Unidades *</label> -->
-            <input type="type" placeholder="Unidades: ¿Cuántas?"><br>
+            <input type="cell" name="Emp.QyC" placeholder="Unidades: ¿Cuántas?"><br>
     
             <!-- <input type="checkbox" id="j_q" name="carne" value="carne">
             <label for="carne">Capresse</label>

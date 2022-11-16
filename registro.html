@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/880a7425c1.js" crossorigin="anonymous"></script>
+    <title>Empanadas Argentinas</title>
+</head>
+<body >
+<header>
+    <nav >
+        <a class="nav" href="../index.html">Incio</a>
+        <a class="nav" href="elaboracion.html">Elaboración</a>
+        <a class="nav" href="contacto.html">Contacto</a>
+        <a class="nav" href="producto.html"">Producto</a>
+        <a class="nav" href="suc.html">Sucursales</a>
+        <a class="nav" href="registro.html">Registro</a>
+    </nav>
+    
+    <h1>Empanadas bien Argentinas</h1>
+</header>  
+<menu>
+<h2>Formulario de Registro</h2>
+<form action="show_data.html" target="_blank" >
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="firstname">Nombre:</label> <input type="text" name="firstname" placeholder="Ingrese su nombre" size="30 " maxlength="100"  ><br>
+        <label for="email">e-Mail:</label>
+        <input type="email" name="correo" value="@" ><br>
+        <label for="DocIdent">DNI:</label> <input type="number" name="doc" placeholder="Ingrese su DNI" ><br>
+        <label for="ScanDNI">Scan DNI:</label> <input type="file" name="adjuntar" ><br>
+        <label for="tramite">N°Tramite:</label> <input type="password" name="tramite"><br>
+        <label for="BirthDay">Fecha de Nacimiento:</label> <input type="date" name="birthday" placeholder="Ingrese su fecha de nacimiento" ><br>
+    </fieldset>
+    <p>Género con radio(rb) (sólo podemos marcar uno//Zona Residencia)
+        <input type="radio" name="rd" value="hombre" checked>Hombre
+        <input type="radio" name="gender" value="mujer" checked>Mujer
+        <input type="radio" name="gender" value="otro" checked>Otro
+    </p>
+    <p>Estudios (con checkbox, permite marcar varios//uso tb en aceptar condiciones)
+        <input type="checkbox" name="estudio" value="primarios" >Primarios
+        <input type="checkbox" name="estudio" value="secundarios" >Secundarios
+        <input type="checkbox" name="estudio" value="terciarios" >Terciarios
+        <input type="checkbox" name="estudio" value="universitarios" >Universitarios
+        <input type="checkbox" name="estudio" value="otros" >Otros
+    </p>
+    <label for="turno">Seleccionar un turno</label>
+    <select name="turno" id="turno"  >
+        <option value="1">Mañana</option>
+        <option value="2">Tarde</option>
+        <option value="3">Noche</option>
+    </select><br>
+    
+    <input type="checkbox" name="condiciones  ">Acepto términos y condiciones <br>
+    <input type="reset" value="Borrar todo">
+    <input type="submit" value="Enviar formulario">
+</form>
+
+</menu>
+
+<footer>
+    <div><br><br>
+        <h3> </h3>
+    <a class="redsoc" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a class="redsoc" href="https://www.facebook.com/ser.tol.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a class="redsoc" href="https://www.pinterest" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+    <a class="redsoc" href="https://www.instagram/sertolser?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a class="redsoc" href="https://www.linkedin.com/in/sergio-tolaba" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+   
+        <h3>Derechos reservados @2022</h3>
+    </div>
+   
+    
+</footer>
+</body>
+</html>
