@@ -22,7 +22,14 @@ body {
     display: inline;
     text-align: justify;
 }
+#dde {
+  color: white;
+  font-size: 3.2rem;
+  text-align: left;
+  
+}
 h1 {
+
   font-size: 3.8rem;
   color: rgb(21, 169, 218);
   text-align: center;
@@ -32,6 +39,8 @@ span {
   font-size: 5rem;
 
 }
+
+
 h3{
   font-size: 3.8rem;
   color: rgb(255, 255, 255);
@@ -214,6 +223,7 @@ label{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 2.5%;
   
 }
 /* Aqui comienza el footer */
