@@ -32,6 +32,11 @@ span {
   font-size: 5rem;
 
 }
+h3{
+  font-size: 3.8rem;
+  color: rgb(255, 255, 255);
+  text-align: left; 
+}
 .grid-item {
     display: flex;
     align-items: center;
@@ -205,7 +210,12 @@ label{
   display: inline-block;
   width: auto;
 }
-
+.dir{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
 /* Aqui comienza el footer */
 footer {
 
